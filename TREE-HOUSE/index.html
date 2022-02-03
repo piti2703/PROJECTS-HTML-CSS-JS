@@ -4,51 +4,278 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>TREE HOUSE</title>
 
     <script src="https://kit.fontawesome.com/7689eee82e.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
 
-
+    <link rel="shortcut icon" type="image/jpg" href="img/fav.ico"/>
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
     <header class="header">
         <div class="wrapper">
             <a href="#" class="header__logo">
-                <img src="/img/logo.png" alt="Logo TREE HOUSE">
+                <img src="img/logo.png" alt="Logo TREE HOUSE">
             </a>
             <button class="header__burger-btn"><i class="fas fa-bars"></i></button>
             <nav class="nav nav-desktop">
            <div class="nav-desktop__items">
                <a href="#" class="nav-desktop__item link-animation">home</a>
-               <a href="#about" class="nav-desktop__item link-animation">about</a>
-               <a href="#blog" class="nav-desktop__item link-animation">blog</a>
+               <a href="#services" class="nav-desktop__item link-animation">about</a>
+               <a href="#relax" class="nav-desktop__item link-animation">blog</a>
                <a href="#portfolio" class="nav-desktop__item link-animation">portfolio</a>
-               <a href="#contact" class="nav-desktop__item link-animation">contact</a>
+               <a href="#footer" class="nav-desktop__item link-animation">contact</a>
            </div>
         </nav>
         </div>
         <nav class="nav nav-mobile">
            <div class="nav-mobile__items">
                <a href="#" class="nav-mobile__item link-animation">home</a>
-               <a href="#about" class="nav-mobile__item link-animation">about</a>
-               <a href="#blog" class="nav-mobile__item link-animation">blog</a>
+               <a href="#services" class="nav-mobile__item link-animation">about</a>
+               <a href="#relax" class="nav-mobile__item link-animation">blog</a>
                <a href="#portfolio" class="nav-mobile__item link-animation">portfolio</a>
-               <a href="#contact" class="nav-mobile__item link-animation">contact</a>
+               <a href="#footer" class="nav-mobile__item link-animation">contact</a>
            </div>
         </nav>
 
         <div class="header__img">
-            <div class="header__shadow"></div>
-            <div class="header__heading">CREATIVE DIGITAL SOLUTIONS</div>
-            <div class="header__text">Prion iaculis purus consequat sem cure.</div>
+            <div class="shadow"></div>
+            <h2 class="header__heading">CREATIVE DIGITAL SOLUTIONS</h2>
+            <p class="header__text">Prion iaculis purus consequat sem cure.</p>
             <a href="#" class="header__link green-btn">VIEW PORTFOLIO</a>
         </div>
     </header>
-    <section class="section" id="about"></section>
+    <main class="main">
+        
+        <section class="services section-padding" id="services">
+        <div class="wrapper">
+            <h3 class="services__title section-title">PROFESSIONAL SERVICES</h3>
+            <p class="services__subtitle section-subtitle">Prion iaculis purus consequat sem cure.</p>
+            <div class="services__boxes three-columns">
+                <div class="services__box three-columns--one">
+                    <img src="img/heart.png" alt="">
+                    <h4 class="services__box-heading">BEAUTIFUL DESIGNS</h4>
+                    <p class="services__box-text">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean in tincidunt.</p>
+                </div>
+                <div class="services__box three-columns--two">
+                    <img src="img/mobile.png" alt="">
+                    <h4 class="services__box-heading">RESPONSIVE WEB</h4>
+                    <p class="services__box-text">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean in tincidunt.</p>
+                </div>
+                <div class="services__box three-columns--three">
+                    <img src="img/graph.png" alt="">
+                    <h4 class="services__box-heading">MARKETING TOOLS</h4>
+                    <p class="services__box-text">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean in tincidunt.</p>
+                </div>
+            </div>
+        </div>
+        </section>
+        <section class="relax" id="relax">
+            <div class="relax__cog"></div>
+            <div class="relax__content section-padding">
+                <div class="shadow"></div>
+                <h3 class="relax__title section-title">JUST RELAX <span>&</span> LET US DO THE HEAVY LIFTING</h3>
+                <p class="relax__text">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
+                <div class="relax__advantage">
+                    <img src="/img/done.png" alt="" class="relax__advantage-img">
+                    <p lass="relax__advantage-text">Initial Setup & Customizations</p>
+                </div>
+                <div class="relax__advantage">
+                    <img src="/img/done.png" alt="" class="relax__advantage-img">
+                    <p lass="relax__advantage-text">Regular Updates</p>
+                </div>
+                <div class="relax__advantage">
+                    <img src="/img/done.png" alt="" class="relax__advantage-img">
+                    <p lass="relax__advantage-text">Round The Clock Support</p>
+                </div>
+                <a href="#" class="relax__link green-btn">learn more</a>
+            </div>
+        </section>
+        <section class="portfolio section-padding" id="portfolio">
+            <h3 class="portfolio__title section-title">LATEST PROJECT</h3>
+            <p class="portfolio__subtitle section-subtitle">Proin iaculis purus consequat sem cure.</p>
+            <div class="portfolio__content">
+                <div class="wrapper wrapper--portfolio">
+                    <h4 class="portfolio__heading">DEVELOPING A FRAMEWORK</h4>
+                    <p class="portfolio__text">Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
+                    <div class="portfolio__items">
+                        <div class="portfolio__item">
+                            <img src="img/basket.png" alt="">
+                            <div class="portfolio__item-text">
+                                <h5 class="portfolio__item-h5">E-Commerce Ready</h5>
+                                <p class="portfolio__item-p">Proin iaculis purus consequat sem cure digni ssim.</p>
+                            </div>
+                        </div>
+                        <div class="portfolio__item">
+                            <img src="img/laptop.png" alt="">
+                            <div class="portfolio__item-text">
+                                <h5 class="portfolio__item-h5">Powerful SEO Features</h5>
+                                <p class="portfolio__item-p">Proin iaculis purus consequat sem cure.</p>
+                            </div>
+                        </div>
+                        <div class="portfolio__item">
+                            <img src="img/block.png" alt="">
+                            <div class="portfolio__item-text">
+                                <h5 class="portfolio__item-h5">E-Commerce Ready</h5>
+                                <p class="portfolio__item-p">Proin iaculis purus consequat sem cure digni ssim.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="portfolio__text">Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit aenean rhoncus posuere odio in.</p>
+                    <a href="#" class="portfolio__link link">view details <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="portfolio__tablet"></div>
+            </div>
+        </section>
+        <section class="values section-padding">
+            <h3 class="portfolio__title section-title">CULTURE & VALUES</h3>
+            <p class="portfolio__subtitle section-subtitle">Proin iaculis purus consequat sem cure.</p>
+            <div class="wrapper">
+                <div class="values__boxes three-columns">
+                    <div class="values__box three-columns--one">
+                        <img src="img/work.png" alt="">
+                        <h4 class="values__box-heading">WORK-LIFE BALANCE</h4>
+                        <p class="values__box-text">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean in tincidunt.</p>
+                    </div>
+                    <div class="values__box three-columns--two">
+                        <img src="img/quality.png" alt="">
+                        <h4 class="values__box-heading">QUALIT OVER QUANTITY</h4>
+                        <p class="values__box-text">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean in tincidunt.</p>
+                    </div>
+                    <div class="values__box three-columns--three">
+                        <img src="img/deliver.png" alt="">
+                        <h4 class="values__box-heading">DELIVER EXCELLENCE</h4>
+                        <p class="values__box-text">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean in tincidunt.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="opinions section-padding">
+            <h3 class="opinions__title section-title">our awesome clients</h3>
+            <p class="opinions__subtitle section-subtitle">Proin iaculis purus consequat sem cure.</p>
+            <div class="wrapper">
+                <div class="opinions__boxes">
+                    <div class="opinions__box">
+                        <img src="img/photo1.jpg" alt="Mężczyzna" class="opinions__box-img">
+                        <div class="opinions__box-text">
+                            <p class="opinions__box-paragraph">"Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit aenean rhoncus"</p>
+                            <span class="opinions__box-span">- Jamie Richardson, Founder of Cocoa Media</span>
+                        </div>
+                    </div>
+                    <div class="opinions__box">
+                        <img src="img/photo2.jpg" alt="Mężczyzna" class="opinions__box-img opinions__box-img-two">
+                        <div class="opinions__box-text">
+                            <p class="opinions__box-paragraph">"Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit aenean rhoncus"</p>
+                            <span class="opinions__box-span">- Kim Thompson, Founder of Rainel</span>
+                        </div>
+                    </div>
+            </div>
+        </section>
+        <section class="ready section-padding">
+            <h3 class="ready__title section-title">Ready to talk about your next project?</h3>
+            <button class="ready__btn">contact us</button>
+        </section>
+        <section class="images wrapper">
+                <div class="images__img images__img--one">
+                    <img src="img/envato.png" alt="">
+                </div>
+                <div class="images__img images__img--two">
+                    <img src="img/wordpress.png" alt="">
+                </div>
+                <div class="images__img images__img--three">
+                    <img src="img/tuts+.png" alt="">
+                </div>
+                <div class="images__img images__img--four">
+                    <img src="img/microlancer.png" alt="">
+                </div> 
+        </section>
+        
+    </main>
+    <footer class="footer" id="footer">
+        <section class="footer-top">
+            <div class="wrapper">
+                <div class="footer-top__boxes three-columns">
+                    <div class="footer-top__box three-columns--one">
+                        <h4 class="footer-top__box-heading">CONTACT US</h4>
+                        <div class="footer-top__box-row">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p>55 Main St. Toronto, ON M1H 3A5</p>
+                        </div>
+                        <div class="footer-top__box-row">
+                            <i class="fas fa-mobile-alt"></i>
+                            <p>(416) 5555-252</p>
+                        </div>
+                        <div class="footer-top__box-row">
+                            <i class="fas fa-envelope"></i>
+                            <p>hello@treehouse.com</p>
+                        </div>
+                    </div>
+                    <div class="footer-top__box three-columns--two">
+                        <h4 class="footer-top__box-heading">LATEST POSTS</h4>
+                        <div class="footer-top__box-row">
+                            <i class="fas fa-address-card"></i>
+                            <p>Made With Love In Toronto</p>
+                        </div>
+                        <div class="footer-top__box-row">
+                            <i class="fas fa-image"></i>
+                            <p>Startup News $ Emerging Tech</p>
+                        </div>
+                        <div class="footer-top__box-row">
+                            <i class="fas fa-address-card"></i>
+                            <p>Bitcoin Will Soon Rule The World</p>
+                        </div>
+                        <div class="footer-top__box-row">
+                            <i class="fas fa-address-card"></i>
+                            <p>Wearable Technology On The Rise</p>
+                        </div>
+                        <div class="footer-top__box-row">
+                            <i class="fab fa-youtube"></i>
+                            <p>Learn Web Design In 30 Days!</p>
+                        </div>
+                    </div>
+                    <div class="footer-top__box three-columns--three">
+                        <h4 class="footer-top__box-heading">LATEST TWEETS</h4>
+                        <div class="footer-top__box-row">
+                            <i class="fab fa-twitter"></i>
+                            <div class="footer-top__box-text">
+                                <p>Confucius: Life is really simple, but we insist on making it complicated.</p>
+                                <b>#famousquotes</b>
+                                <span>8 mins ago</span>
+                            </div>
+                        </div>
+                        <div class="footer-top__box-row">
+                            <i class="fab fa-twitter"></i>
+                            <div class="footer-top__box-text">
+                                <p>Grab the Free Treehouse web template at FreebiesXpress!</p>
+                                <b>#freebies #templates</b>
+                                <span>2 days ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="footer-bottom">
+            <div class="wrapper three-columns">
+                <p class="footer-bottom-text three-columns--one"> &copy; Copyright <span class="footer-bottom__year"></span> FreebiesXpress.Com </p>
+                <div class="footer-bottom__icons three-columns--two">
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-pinterest"></i>
+                    <i class="fab fa-google-plus"></i>
+                </div>
+                <div class="three-columns--three"></div>
+            </div>
+        </section>
+        
+    </footer>
+
+
+    
+
     <script src="js/main.js"></script>
 </body>
 </html>
