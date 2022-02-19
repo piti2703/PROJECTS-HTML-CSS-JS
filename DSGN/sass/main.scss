@@ -94,7 +94,7 @@ body {
     }
 
     &__bottom {
-        background-image: url(/img/header-background-mobile.png);
+        background-image: url(../img/header-background-mobile.png);
         height: 50vh;
         background-size: cover;
         background-position: top;
@@ -572,7 +572,7 @@ body {
         display: none;
     }
     &__bottom {
-        background-image: url(/img/header-background-desktop.png);
+        background-image: url(../img/header-background-desktop.png);
         height: 60vh;
     }
     .nav-desktop {
