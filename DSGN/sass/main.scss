@@ -39,6 +39,7 @@ body {
         width: 100%;
         background-color: $white;
         z-index: 100;
+        height: 79px;
     }
     &__burger-btn, &__burger-btn--white {
         border: 1px solid transparent;
@@ -712,6 +713,12 @@ body {
 }
 
 @media(min-width: 992px) {
+
+    .header {
+        &__left {
+            height: 80px;
+        }
+    }
 
     .portfolio {
 

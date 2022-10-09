@@ -242,6 +242,7 @@ body {
   width: 100%;
   background-color: #fff;
   z-index: 100;
+  height: 79px;
 }
 
 .header__burger-btn, .header__burger-btn--white {
@@ -966,6 +967,9 @@ body {
 }
 
 @media (min-width: 992px) {
+  .header__left {
+    height: 80px;
+  }
   .portfolio__images {
     display: -ms-grid;
     display: grid;
